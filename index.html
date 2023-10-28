@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+  <ps-page>
+    <ps-topnav>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+
+    </ps-topnav>
+    <ps-header title="🔥 PS Elements Set " subtitle="For use across all projects -- made with Lit"></ps-header>
+    <ps-workspace columns="2fr 3fr 2fr">
+      <ps-controller>
+
+        <ps-control-slider name="test" mix="0" max="20"></ps-control-slider>
+
+      </ps-controller>
+      <ps-column>
+        <ps-canvas>Canvas</ps-canvas>
+        <ps-utilities>Utilities</ps-utilities>
+      </ps-column>
+      <ps-controller>Controller B</ps-controller>
+    </ps-workspace>
+  </ps-page>
+
+</body>
+
+
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
